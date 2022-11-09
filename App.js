@@ -11,7 +11,7 @@ db.connect();
 route(app);
 
 app.get("/", (req, res) => {
-    res.send();
+    res.send(`Hello may`);
 });
 
 app.listen(PORT, () => {
